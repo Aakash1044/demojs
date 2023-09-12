@@ -73,6 +73,72 @@ section {
     justify-content: center;
     align-items: center;
     display: none;
-    background-color: darkblue;
+    background-color: white;
     color: #fff;
+}
+.view3 {
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-weight: bold;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rgb(7, 62, 214); */
+    color: #000;
+    border: 1px solid;
+}
+.view3 > div { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    /* background-color: #0d0d0d; */
+    color: black;
+    margin: 10px;
+}
+.view3 form label{
+    color: #000;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+.view3 form input{
+    width: 100%;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+
+}
+.view3 form button{
+    display: block;
+    margin-top: 1rem;
+    margin-left: auto;
+}
+.grey{
+    background-color: gray;
+}
+.darkblue{
+    background-color: darkblue;
+}
+.pink{
+    background-color: palevioletred;
+}
+/* .black{
+    background-color: black;
+} */
+.heigth100px{
+    height: 7000px;
+}
+
+
+.view4{
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-weight: bold;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rgb(7, 62, 214); */
+    color: #000;
+    border: 1px solid;
 }
